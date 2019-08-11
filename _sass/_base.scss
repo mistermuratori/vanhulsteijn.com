@@ -181,6 +181,17 @@ header {
             }
         }
     }
+    @media (max-width: 768px) {
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-position: top;
+        .header-content {
+            position: absolute;
+            bottom: 1%;
+            padding: 30px;
+        }
+    }
     @media (min-width: 768px) {
         min-height: 100%;
         .header-content {
